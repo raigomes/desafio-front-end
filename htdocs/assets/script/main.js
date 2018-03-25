@@ -1,19 +1,19 @@
 function insertElementIntoHTML (content) {
     var section = document.getElementById(content.name);
-    var newSection = "";
-    
-    section.innerHTML += "<section>";
+    var newSection = "<section>";
 
     content.data.forEach(data => {
-        section.innerHTML += `<section>
-                                <img src="/assets/media/${data.image}" alt="${data.image}" />
-                                <h3>${data.label}</h3>
-                                <strong>${data.title}</strong>
-                                <p>${data.description}</p>
-                            </section>`;
+        newSection += `<section>
+                            <img src="/assets/media/${data.image}" alt="${data.image}" />
+                            <h3>${data.label}</h3>
+                            <strong>${data.title}</strong>
+                            <p>${data.description}</p>
+                        </section>`;
     });
 
-    section.innerHTML += "</section>";
+    newSection += "</section>";
+
+    section.innerHTML += newSection;
 }
 
 function load () {

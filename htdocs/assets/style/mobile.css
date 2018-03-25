@@ -4,17 +4,39 @@
 }
 
 header {
-    background-color: #004861; 
+    background-color: #004861;     
+}
+
+#menuButton {
+    content: url("/assets/media/menu-icon.png");
+    width: auto;
 }
 
 #logo-azul {
     content: url("/assets/media/logo.png");
-    text-align: center;    
+    width: auto;
 }
 
+.clearfix {
+    clear: both;
+}
+
+.menu {
+    float: left;
+    width: 30%;
+    padding: 5% 0 5% 5%;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    padding: 5% 5% 5% 0;
+}
+
+
 .ads {
-    border-top: 1pt solid #bebebe;
-    border-bottom: 1pt solid #bebebe;
+    background-color: #bebebe;
+    padding: .5% 0;
     content: url("/assets/media/ads 320X100.png");
 }
 

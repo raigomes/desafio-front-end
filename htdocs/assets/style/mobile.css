@@ -12,6 +12,12 @@ header {
     text-align: center;    
 }
 
+.ads {
+    border-top: 1pt solid #bebebe;
+    border-bottom: 1pt solid #bebebe;
+    content: url("/assets/media/ads 320X100.png");
+}
+
 .padding {
     padding-top: 5%;
     padding-bottom: 5%;

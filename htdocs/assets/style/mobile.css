@@ -1,0 +1,34 @@
+* {
+    width: 100%;    
+    margin: 0;
+}
+
+header {
+    background-color: #004861; 
+}
+
+#logo-azul {
+    content: url("/assets/media/logo.png");
+    text-align: center;    
+}
+
+.padding {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+    background-color: #004861;     
+}
+
+#logo-amarela {
+    content: url("/assets/media/logo-footer.png");
+    text-align: center;
+    background-color: #d5e11f;    
+}
+
+#copyright {
+    text-align: center;
+    font: 10pt Arial, sans-serif;
+    color: #fff;
+}

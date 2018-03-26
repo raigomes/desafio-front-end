@@ -41,7 +41,7 @@ header {
 .container {
     display: inline-block;
     position: relative;
-    border: 1pt solid #bebebe;
+    border-bottom: 1pt solid #bebebe;
 }
 
 h2, h3 {
@@ -55,6 +55,20 @@ h4 {
 
 p, strong {
     width: auto;    
+}
+
+.secao-titulo {
+    color: #004861;
+    text-align: left;
+    padding: 10pt;
+}
+
+.secao-footer {
+    width: auto;
+    color: #004861;
+    font-weight: bold;
+    border-bottom: 1pt solid #bebebe;
+    padding: 5pt 0 5pt 200pt;
 }
 
 .destaque-principal .news-image {

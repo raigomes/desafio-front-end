@@ -1,3 +1,10 @@
+function addFooter (value) {
+    document.getElementById(value)
+            .innerHTML += `<section class="secao-footer">
+                            <p>${value.toUpperCase()} +</p>
+                           </section>`;
+}
+
 function insertElementIntoHTML (content) {
     var name = content.name;
     var section = document.getElementById(name);
@@ -33,6 +40,7 @@ function insertElementIntoHTML (content) {
     newSection += `</section>`;
 
     section.innerHTML += newSection;
+
 }
 
 function load () {
@@ -42,7 +50,9 @@ function load () {
     request.onload = function() {
         if (request.status >= 200 && request.status < 400) {
             var data = JSON.parse(request.responseText);            
-            data.section.forEach(insertElementIntoHTML);
+            data.section.forEach(insertElementIntoHTML);            
+            addFooter("Brasil");
+            addFooter("Mundo");
         } else {
             console.log("ERRO load() status " + request.status);            
         }

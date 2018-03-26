@@ -86,7 +86,7 @@ p, strong {
     width: auto;
     position: absolute;
     top: 5pt;
-    left: 250pt;
+    left: 240pt;
     content: url("/assets/media/white-share.png")
 }
 
@@ -129,18 +129,44 @@ p, strong {
 
 .destaque-tres .news-image {
     display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 10pt 10pt 50pt 10pt;
+}
+
+.destaque-tres .news {
+    display: inline-block;
+    width: 40%;
+}
+
+.destaque-tres .news h3 {
+    font-size: 9pt;
+    font-weight: bold; 
+    padding: 10pt 0 5pt 0;
+}
+
+.destaque-tres .news h4 {
+    font-size: 12pt;
+    font-weight: bold;    
+    padding: 0 0 5pt 0;
+}
+
+.destaque-tres .news p {
+    width: 80%;
+    display: block;
+    position: absolute;
+    top: 90pt;
+    left: 10pt;
+    font-size: 12pt;
+    padding: 10pt 0 5pt 0;    
 }
 
 .destaque-tres .share {
     width: auto;
     position: absolute;
-    top: 180pt;
-    left: 250pt;
+    top: 110pt;
+    left: 240pt;
     content: url("/assets/media/black-share.png")
-}
-
-.destaque-tres .news {
-    display: inline-block;
 }
 
 .ads {

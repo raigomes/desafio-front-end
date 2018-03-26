@@ -1,6 +1,7 @@
 * {
     width: 100%;    
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 header {
@@ -33,6 +34,114 @@ header {
     padding: 5% 5% 5% 0;
 }
 
+.row {
+    display: inline;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    border: 1pt solid #bebebe;
+}
+
+h2, h3 {
+    color: #004861;
+    width: auto;
+}
+
+h4 {
+    width: auto;
+}
+
+p, strong {
+    width: auto;    
+}
+
+.destaque-principal .news-image {
+    display: block;
+}
+
+.destaque-principal .news {
+    display: block;    
+}
+
+.destaque-principal .news h3 {
+    font-size: 10pt;
+    font-weight: bold; 
+    padding: 5pt 10pt 0;
+}
+
+.destaque-principal .news h4 {
+    font-size: 20pt;
+    font-weight: bold; 
+    padding: 5pt 10pt 0;
+}
+
+.destaque-principal .news p {
+    padding: 5pt 10pt;
+    font-size: 100%;
+}
+
+.destaque-principal .share {
+    width: auto;
+    position: absolute;
+    top: 5pt;
+    left: 250pt;
+    content: url("/assets/media/white-share.png")
+}
+
+.destaque-dois .news-image {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 10pt;
+}
+
+.destaque-dois .news {
+    display: inline-block;
+    width: 60%;    
+}
+
+.destaque-dois .news h3 {
+    font-size: 9pt;
+    font-weight: bold; 
+    padding: 10pt 0 5pt 0;
+}
+
+.destaque-dois .news h4 {
+    font-size: 14pt;
+    font-weight: bold;    
+    padding: 0 0 5pt 0;
+}
+
+.destaque-dois .news p {
+    font-size: 11pt;
+    padding: 0 0 5pt 0;    
+}
+
+.destaque-dois .share {
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 65pt;
+    content: url("/assets/media/black-share.png");    
+}
+
+.destaque-tres .news-image {
+    display: inline-block;
+}
+
+.destaque-tres .share {
+    width: auto;
+    position: absolute;
+    top: 180pt;
+    left: 250pt;
+    content: url("/assets/media/black-share.png")
+}
+
+.destaque-tres .news {
+    display: inline-block;
+}
 
 .ads {
     background-color: #bebebe;

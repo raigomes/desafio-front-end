@@ -85,8 +85,8 @@ p, strong {
 .destaque-principal .share {
     width: auto;
     position: absolute;
-    top: 5pt;
-    left: 240pt;
+    top: 3%;
+    left: 90%;
     content: url("/assets/media/white-share.png")
 }
 
@@ -123,7 +123,7 @@ p, strong {
     width: auto;
     position: relative;
     top: 0;
-    left: 65pt;
+    left: 80%;
     content: url("/assets/media/black-share.png");    
 }
 
@@ -155,8 +155,8 @@ p, strong {
     width: 80%;
     display: block;
     position: absolute;
-    top: 90pt;
-    left: 10pt;
+    top: 65%;
+    left: 5%;
     font-size: 12pt;
     padding: 10pt 0 5pt 0;    
 }
@@ -164,8 +164,8 @@ p, strong {
 .destaque-tres .share {
     width: auto;
     position: absolute;
-    top: 110pt;
-    left: 240pt;
+    top: 75%;
+    left: 90%;
     content: url("/assets/media/black-share.png")
 }
 

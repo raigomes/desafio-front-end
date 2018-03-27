@@ -1,11 +1,10 @@
-* {
-    width: 100%;    
+* {     
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;    
 }
 
 header {
-    background-color: #004861;     
+    background-color: #004861;         
 }
 
 #menuButton {
@@ -14,7 +13,7 @@ header {
 }
 
 #logo-azul {
-    content: url("/assets/media/logo.png");
+    content: url("/assets/media/logo 382x48.png");
 }
 
 .clearfix {
@@ -24,13 +23,13 @@ header {
 .menu {
     float: left;
     width: 30%;
-    padding: 5% 0 5% 5%;
+    padding: 3%;
 }
 
 .logo {
     float: left;
     width: 30%;
-    padding: 5% 5% 5% 0;
+    padding: 2%;
 }
 
 .row {

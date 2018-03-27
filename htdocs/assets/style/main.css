@@ -97,20 +97,20 @@ p, strong {
 }
 
 .destaque-principal .news h3 {
-    font-size: 80%;
+    font-size: .8em;
     font-weight: bold; 
     padding: 2% 10% 0 5%;    
 }
 
 .destaque-principal .news h4 {
-    font-size: 200%;
+    font-size: 2em;
     font-weight: bold; 
     padding: 2% 10% 0 5%;
 }
 
 .destaque-principal .news p {
     padding: 2% 10% 0 5%;
-    font-size: 130%;
+    font-size: 1.3em;
 }
 
 .destaque-principal .share {

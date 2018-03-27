@@ -36,7 +36,7 @@ header {
 }
 
 .row {
-    padding: 3%;
+    padding: 0 3% 3%;
 }
 
 .container {
@@ -60,15 +60,18 @@ p, strong {
 .secao-titulo {
     color: #004861;
     text-align: left;
-    padding: 10pt;
+    padding-left: 4%;
+    padding-top: 2%;
 }
 
-.secao-footer {
-    width: auto;
+.secao-footer {    
     color: #004861;
     font-weight: bold;
+    text-align: right;
+    margin-bottom: 2%;
+    border-top: 1pt solid #bebebe;
     border-bottom: 1pt solid #bebebe;
-    padding: 5pt 0 5pt 200pt;
+    padding: .5%;
 }
 
 .destaque-principal {
@@ -123,7 +126,7 @@ p, strong {
 
 .destaque-dois {
     width: 45%;
-    margin: 1%;
+    margin: 0 1%;
 }
 
 .destaque-dois .news-image {
@@ -170,7 +173,7 @@ p, strong {
 
 .destaque-tres {
     width: 21.5%;
-    margin: 1%;
+    margin: 0 1%;
 }
 
 .destaque-tres .news-image {

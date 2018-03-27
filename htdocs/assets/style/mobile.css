@@ -189,23 +189,20 @@ p, strong {
     content: url("/assets/media/ads 320X100.png");
 }
 
-.padding {
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 footer {
-    background-color: #004861;     
+    background-color: #004861;         
 }
 
 #logo-amarela {
     content: url("/assets/media/logo-footer.png");
     text-align: center;
     background-color: #d5e11f;    
+    padding: 5% 0;
 }
 
 #copyright {
     text-align: center;
     font: 10pt Arial, sans-serif;
     color: #fff;
+    padding: 5% 0;
 }

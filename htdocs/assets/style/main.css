@@ -42,7 +42,6 @@ header {
 .container {
     display: inline-block;
     position: relative;
-    border-bottom: 1pt solid #bebebe;
 }
 
 h2 {
@@ -169,46 +168,44 @@ p, strong {
     content: url("/assets/media/black-share.png");    
 }
 
+.destaque-tres {
+    width: 21.5%;
+    margin: 1%;
+}
+
 .destaque-tres .news-image {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     vertical-align: top;
     color: #004861;
-    padding: 10pt 10pt 50pt 10pt;
 }
 
 .destaque-tres .news {
     display: inline-block;
-    width: 40%;
 }
 
 .destaque-tres .news h3 {
-    font-size: 9pt;
+    font-size: .8em;
     font-weight: bold; 
+    color: #004861;
     padding: 10pt 0 5pt 0;
 }
 
 .destaque-tres .news h4 {
-    font-size: 12pt;
+    font-size: 1.5em;
     font-weight: bold;    
     padding: 0 0 5pt 0;
 }
 
-.destaque-tres .news p {
-    width: 80%;
-    display: block;
-    position: absolute;
-    top: 65%;
-    left: 5%;
-    font-size: 12pt;
-    padding: 10pt 0 5pt 0;    
+.destaque-tres .news p {    
+    display: block;    
 }
 
 .destaque-tres .share {
     width: auto;
     position: absolute;
-    top: 75%;
-    left: 90%;
+    top: 110%;
+    left: 0;
     content: url("/assets/media/black-share.png")
 }
 

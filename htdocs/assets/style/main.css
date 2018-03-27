@@ -1,10 +1,11 @@
 * {     
-    margin: 0;
+    margin: 0;      
     font-family: Arial, Helvetica, sans-serif;    
 }
 
 header {
     background-color: #004861;         
+    width: 100%;
 }
 
 #menuButton {
@@ -34,6 +35,7 @@ header {
 
 .row {
     display: inline;
+    padding: 3%;
 }
 
 .container {
@@ -42,7 +44,7 @@ header {
     border-bottom: 1pt solid #bebebe;
 }
 
-h2, h3 {
+h2 {
     color: #004861;
     width: auto;
 }
@@ -69,36 +71,53 @@ p, strong {
     padding: 5pt 0 5pt 200pt;
 }
 
+.destaque-principal {
+    width: 45%;
+    margin: 1%;
+}
+
 .destaque-principal .news-image {
     display: block;
+    height: 100%;
+}
+
+.destaque-principal .news-image img {
+    width: 100%;
 }
 
 .destaque-principal .news {
-    display: block;    
+    display: block;   
+    background: linear-gradient(transparent, black, black); 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
 }
 
 .destaque-principal .news h3 {
-    font-size: 10pt;
+    font-size: 80%;
     font-weight: bold; 
-    padding: 5pt 10pt 0;
+    padding: 2% 10% 0 5%;    
 }
 
 .destaque-principal .news h4 {
-    font-size: 20pt;
+    font-size: 200%;
     font-weight: bold; 
-    padding: 5pt 10pt 0;
+    padding: 2% 10% 0 5%;
 }
 
 .destaque-principal .news p {
-    padding: 5pt 10pt;
-    font-size: 100%;
+    padding: 2% 10% 0 5%;
+    font-size: 130%;
 }
 
 .destaque-principal .share {
     width: auto;
     position: absolute;
     top: 3%;
-    left: 90%;
+    left: 95%;
     content: url("/assets/media/white-share.png")
 }
 
@@ -117,6 +136,7 @@ p, strong {
 .destaque-dois .news h3 {
     font-size: 9pt;
     font-weight: bold; 
+    color: #004861;
     padding: 10pt 0 5pt 0;
 }
 
@@ -143,6 +163,7 @@ p, strong {
     display: inline-block;
     width: 50%;
     vertical-align: top;
+    color: #004861;
     padding: 10pt 10pt 50pt 10pt;
 }
 

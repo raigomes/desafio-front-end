@@ -211,9 +211,13 @@ p, strong {
 }
 
 .ads {
-    background-color: #bebebe;
-    padding: .5% 0;
-    content: url("/assets/media/ads 320X100.png");
+    background-color: #eee;    
+    padding: 1%;
+}
+
+.ads::after {    
+    content: url("/assets/media/ads 728X90.png");
+    padding-left: 30%;
 }
 
 footer {

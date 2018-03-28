@@ -10,12 +10,12 @@ header {
     width: 100%;
 }
 
-#menuButton {
+#menuButton::after {
     content: url("/assets/media/menu-icon.png");
     width: auto;
 }
 
-#logo-azul {
+#logo-azul::after {
     content: url("/assets/media/logo 382x48.png");
 }
 
@@ -230,7 +230,7 @@ footer {
     padding: 1%;
 }
 
-#logo-amarela {
+#logo-amarela::after {
     content: url("/assets/media/logo-footer.png");    
 }
 

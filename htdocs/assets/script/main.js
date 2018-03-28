@@ -24,16 +24,17 @@ function insertElementIntoHTML (content) {
         }
 
         newSection +=   `<section class="${name} ${template} container">
-                            <section class="news-image">
-                                <img src="/assets/media/${data.image}" alt="${data.image}" />                                
-                                <section class="share"></section>
-                            </section>                            
-                            <section class="news">
-                                <h3 class="news-section">${data.label.toUpperCase()}</h3>
-                                <h4 class="news-title">${data.title}</h4>
-                                <p class="news-description">${data.description}</p>
-                            </section>
-                            
+                            <a href="${data.url}">
+                                <section class="news-image">
+                                    <img src="/assets/media/${data.image}" alt="${data.image}" />                                
+                                    <section class="share"></section>
+                                </section>                            
+                                <section class="news">
+                                    <h3 class="news-section">${data.label.toUpperCase()}</h3>
+                                    <h4 class="news-title">${data.title}</h4>
+                                    <p class="news-description">${data.description}</p>
+                                </section>
+                            </a>
                         </section>`;        
     });
     

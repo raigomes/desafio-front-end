@@ -1,9 +1,3 @@
-* {
-    width: 100%;    
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;    
-}
-
 header {
     background-color: #004861;     
 }
@@ -38,8 +32,7 @@ header {
     display: inline;
 }
 
-.container {
-    display: inline-block;
+.container {    
     position: relative;
     border-bottom: 1pt solid #bebebe;
 }
@@ -57,43 +50,41 @@ p, strong {
     width: auto;    
 }
 
-.secao-titulo {
-    color: #004861;
-    text-align: left;
-    padding: 10pt;
+.secao-titulo {        
+    padding: 5% 5% 0;
 }
 
-.secao-footer {
-    width: auto;
+.secao-footer {    
     color: #004861;
     font-weight: bold;
     border-bottom: 1pt solid #bebebe;
-    padding: 5pt 0 5pt 200pt;
+    padding: 3% 0 3% 75%;
 }
 
-.destaque-principal .news-image {
-    display: block;
+img {
+    width: 100%;
 }
 
-.destaque-principal .news {
-    display: block;    
-}
+/* Destaque Principal */
 
-.destaque-principal .news h3 {
-    font-size: 10pt;
+.news h3 {
+    font-size: .7em;
     font-weight: bold; 
-    padding: 5pt 10pt 0;
+}
+
+.destaque-principal .news h3 {        
+    padding: 5% 5% 0;
 }
 
 .destaque-principal .news h4 {
-    font-size: 20pt;
+    font-size: 1.5em;
     font-weight: bold; 
-    padding: 5pt 10pt 0;
+    padding: 2% 5% 0;
 }
 
 .destaque-principal .news p {
-    padding: 5pt 10pt;
-    font-size: 100%;
+    font-size: 1em;
+    padding: 2% 5% 5%;    
 }
 
 .destaque-principal .share {
@@ -108,29 +99,27 @@ p, strong {
     display: inline-block;
     width: 30%;
     vertical-align: top;
-    padding: 10pt;
+    padding: 3%;
 }
 
 .destaque-dois .news {
     display: inline-block;
-    width: 60%;    
+    width: 60%;        
 }
 
-.destaque-dois .news h3 {
-    font-size: 9pt;
-    font-weight: bold; 
-    padding: 10pt 0 5pt 0;
+.destaque-dois .news h3 {        
+    padding: 10pt 0 5pt 0;    
 }
 
 .destaque-dois .news h4 {
-    font-size: 14pt;
+    font-size: 1.3em;
     font-weight: bold;    
-    padding: 0 0 5pt 0;
+    padding-bottom: 2%;
 }
 
 .destaque-dois .news p {
-    font-size: 11pt;
-    padding: 0 0 5pt 0;    
+    font-size: .94em;
+    padding-bottom: 5%;
 }
 
 .destaque-dois .share {
@@ -145,7 +134,7 @@ p, strong {
     display: inline-block;
     width: 50%;
     vertical-align: top;
-    padding: 10pt 10pt 50pt 10pt;
+    padding: 5% 3% 15% 5%;
 }
 
 .destaque-tres .news {
@@ -154,15 +143,13 @@ p, strong {
 }
 
 .destaque-tres .news h3 {
-    font-size: 9pt;
-    font-weight: bold; 
-    padding: 10pt 0 5pt 0;
+    padding: 15% 5% 5% 0;
 }
 
 .destaque-tres .news h4 {
-    font-size: 12pt;
+    font-size: .83em;
     font-weight: bold;    
-    padding: 0 0 5pt 0;
+    padding: 0 0 5% 0;
 }
 
 .destaque-tres .news p {
@@ -171,20 +158,21 @@ p, strong {
     position: absolute;
     top: 65%;
     left: 5%;
-    font-size: 12pt;
-    padding: 10pt 0 5pt 0;    
+    font-size: 1.05em;
+    padding: 5% 0 2% 0;    
 }
 
 .destaque-tres .share {
     width: auto;
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 90%;
     content: url("/assets/media/black-share.png")
 }
 
 .ads {
     background-color: #bebebe;
+    width: 100%;
     padding: .5% 0;
     content: url("/assets/media/ads 320X100.png");
 }
@@ -195,14 +183,14 @@ footer {
 
 #logo-amarela {
     content: url("/assets/media/logo-footer.png");
-    text-align: center;
+    width: 100%;
     background-color: #d5e11f;    
-    padding: 5% 0;
+    padding: 10% 0;
 }
 
 #copyright {
     text-align: center;
-    font: 8pt Arial, sans-serif;
+    font-size: .7em;
     color: #fff;
-    padding: 5% 0;
+    padding: 10%;
 }

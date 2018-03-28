@@ -1,13 +1,5 @@
-* {     
-    margin: 0;      
-    padding: 0;
-    border: 0;
-    font-family: Arial, Helvetica, sans-serif;    
-}
-
 header {
     background-color: #004861;         
-    width: 100%;
 }
 
 #menuButton::after {

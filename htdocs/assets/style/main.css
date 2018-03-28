@@ -97,6 +97,7 @@ p, strong {
     color: #fff;
     width: 100%;
     padding: 5% 0;
+    max-height: 50%;
 }
 
 .destaque-principal .news h3 {
@@ -112,7 +113,7 @@ p, strong {
 }
 
 .destaque-principal .news p {
-    padding: 2% 10% 0 5%;
+    padding: 2% 15% 0 5%;
     font-size: 1.3em;
 }
 
@@ -185,7 +186,7 @@ p, strong {
 
 .destaque-tres .news {
     display: inline-block;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 
 .destaque-tres .news h3 {
@@ -208,7 +209,7 @@ p, strong {
 .destaque-tres .share {
     width: auto;
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 0;
     content: url("/assets/media/black-share.png");    
 }

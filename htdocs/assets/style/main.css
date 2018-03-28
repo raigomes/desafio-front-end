@@ -11,20 +11,17 @@ header {
     content: url("/assets/media/logo 382x48.png");
 }
 
-.clearfix {
-    clear: both;
-}
-
 .menu {
-    float: left;
-    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
     padding: 3%;
 }
 
 .logo {
-    float: left;
-    width: 30%;
-    padding: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10%;
 }
 
 .row {

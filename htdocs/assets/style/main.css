@@ -25,12 +25,7 @@ header {
 }
 
 .row {
-    padding: 0 3% 3%;
-}
-
-.container {
-    display: inline-block;
-    position: relative;
+    padding: 0 2% 2%;
 }
 
 h2 {
@@ -56,36 +51,32 @@ p, strong {
 .secao-footer {    
     color: #004861;
     font-weight: bold;
-    text-align: right;
-    margin-bottom: 2%;
+    text-align: right;    
     border-top: 1pt solid #bebebe;
     border-bottom: 1pt solid #bebebe;
     padding: .5%;
 }
 
+/* Destaques */
+
+.container {
+    display: inline-block;
+    position: relative;
+    margin: 2% 1%;
+}
+
+
 .destaque-principal {
-    width: 45%;
-    margin: 1%;
+    width: 48%;
 }
 
-.destaque-principal .news-image {
-    display: block;
-    height: 100%;
-}
-
-.destaque-principal .news-image img {
-    width: 100%;
-}
-
-.destaque-principal .news {
-    display: block;   
+.destaque-principal .news {    
     background: linear-gradient(transparent, black, black); 
     position: absolute;
     left: 0;
     bottom: 0;
     color: #fff;
-    width: 100%;
-    padding: 5% 0;
+    padding: 3% 0;
     max-height: 50%;
 }
 
@@ -102,7 +93,7 @@ p, strong {
 }
 
 .destaque-principal .news p {
-    padding: 2% 15% 0 5%;
+    padding: 2% 10% 0 5%;
     font-size: 1.3em;
 }
 
@@ -115,8 +106,7 @@ p, strong {
 }
 
 .destaque-dois {
-    width: 45%;
-    margin: 0 1%;
+    width: 48%;
 }
 
 .destaque-dois .news-image {
@@ -162,8 +152,9 @@ p, strong {
 }
 
 .destaque-tres {
-    width: 21.5%;
+    width: 23%;
     margin: 0 1%;
+    vertical-align: top;
 }
 
 .destaque-tres .news-image {
@@ -217,6 +208,12 @@ footer {
     background-color: #d5e11f;            
     height: auto;
     padding: 1%;
+    margin-top: 2%;
+}
+
+#logo-amarela {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #logo-amarela::after {
@@ -224,8 +221,10 @@ footer {
 }
 
 #copyright {
-    font: 10pt Arial, sans-serif;
-    color: #000;
-    float: right;
+    display: inline-block;
+    font-size: .7em;
+    color: #000;    
     text-align: right;
+    padding-left: 65%;
+    vertical-align: middle;
 }
